@@ -1,0 +1,113 @@
+/*
+---------------------------------------------------------------------------------
+
+   	MODIFIED BY: alexanderjessmarie@gmail.com
+
+---------------------------------------------------------------------------------
+*/
+/* OVERALL STYLING */
+a{
+	color:grey;
+}
+body{
+	font-family: 'Taviraj', serif;
+    color: #444;
+    display:block;
+    font-size: 18;
+    line-height: 1.6em;
+}
+#container{
+
+}
+#inner{
+	padding: 10px 80px;
+    margin: 80px auto;
+    background: #f5f5f5;
+    border: solid #666;
+    border-width: 8px 0 2px 0;
+}
+
+/* HEADER STYLES */
+header{
+	overflow:hidden;	
+}
+header div.name{
+	float:left;
+	margin-left:3em; 
+}
+h1{
+	font-size: 40px;
+	letter-spacing: .6em;
+	text-transform: uppercase;
+}
+header div.contact-info{
+	float:right;
+	margin-right:3em;
+	line-height: .3em;
+}
+
+/* OVERALL SECTION STYLE */
+
+section{
+	overflow: hidden;
+	position: relative;
+}
+section div.title{
+	font-style: italic;
+	float:left;
+	width:20%;
+	text-align: center;
+	position: relative;
+/*	top: 50%;
+	transform: translateY(-50%);*/
+}
+section div.desc{
+	float:right;
+	width:80%;
+	/*position: absolute;*/
+}
+
+/*SKILLS AND TECHNICAL */
+ul.talent{    
+	width: 27%;
+    padding: 3%;
+
+}
+.talent{
+	position:relative;
+	float:left;
+	width:31%;
+	padding: .3em;
+}
+
+/*  HR Alternatives  */
+.projects, .education, section, header{
+	border-bottom: 1px solid rgba(0, 0, 0);
+	border-bottom: 1px solid rgba(0, 0, 0, .5);
+	padding:.2em;
+	-webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.education:last-of-type,
+.projects:last-of-type{
+
+	border-bottom: 0px solid rgba(0, 0, 0, .0);
+}
+div.education div.school{
+	position:relative;
+	width:60%;
+	float:left;
+}
+div.education div.time{
+	position:relative;
+	width:40%;
+	float:right;
+	text-align: right;
+}
+
+footer{
+	text-align: center;
+	line-height: 1
+}
+
